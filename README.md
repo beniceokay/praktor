@@ -4,7 +4,7 @@ Introducing Praktor: a Grok-4 based agent framework for Colab execution. Plan �
 A lightweight **agentic orchestration framework** implemented entirely inside a single Jupyter/Colab notebook. It gives a chat model **controlled tools**—package installation and “write + run a Python script”—and uses them to build a reproducible pipeline that can discover data, normalize it, run EDA, train small baselines, and compile a final report. You can modify any part of this code as needed to suit your objectives, this is just one small use-case for this framework. The agentic Notebook Framework mentioned herein consists of EDA → Baselines → Report.
 
 > **What this is:** a pragmatic pattern for effective tool-use in notebooks—not a monorepo or heavy orchestration library.  
-> **What this is not:** an AutoGPT clone. The agent cannot do everything; it acts only through narrowly-scoped tools. However, you can easily adjust the parameters to become more or less agentic depending on your use case (feel free to swap in any use case you'd like over this repo by simply changing the messaging you give the architect, subagents, and earlier tools). This paritcular use-case usually takes approximately 20-30 minutes to run.
+> **What this is not:** an AutoGPT clone. The agent cannot do everything; it acts only through narrowly-scoped tools. However, you can easily adjust the parameters to become more or less agentic depending on your use case (feel free to swap in any use case you'd like over this repo by simply changing the messaging you give the architect, subagents, and earlier tools). This particular use-case usually takes approximately 20-30 minutes to run.
 
 ## ✨ Features
 
