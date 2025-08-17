@@ -24,9 +24,9 @@ A lightweight **agentic orchestration framework** implemented entirely inside a 
 ## 🧱 Architecture
 
 ### Tools (notebook-local)
-- **`install_packages_tool(req: dict)`**  
+- **`install_packages_tool`**  
   Uses `pip` to install packages requested by the agent. Captures and returns console output. Validated via a Pydantic schema in the notebook.
-- **`execute_script_tool(req: dict)`**  
+- **`execute_script_tool`**  
   Writes a Python file to disk (defaults to `generated_<id>.py`) and executes it in the same kernel using IPython. Ensures imports are at top level, creates directories before saving, and uses `matplotlib.pyplot.show()` for figures.
 
 > These are thin wrappers around two Python functions defined in the notebook: `install_packages(packages)` and `save_and_execute_script(code, script_name=None)`.
