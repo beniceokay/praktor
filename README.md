@@ -1,5 +1,5 @@
 # praktor
-Introducing Praktor: a Grok-4 based agent framework for Colab execution. | Plan → Run → Analyze → Knowledge → Train → Orchestrate → Report
+Introducing Praktor: a Grok-4 based agent framework for Colab execution. Plan → Run → Analyze → Knowledge → Train → Orchestrate → Report
 
 Agentic Notebook Framework mentioned herein consists of EDA → Baselines → Report.
 
